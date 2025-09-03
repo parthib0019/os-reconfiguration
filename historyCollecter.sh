@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# File to save user commands
-OUTPUT_FILE="UserCommand.txt"
+ # File to save user commands
+ OUTPUT_FILE="UserCommand.txt"
 
-# Get the user's history file (default: ~/.bash_history)
+ # Get the user's history file (default: ~/.bash_history)
 HIST_FILE="${HOME}/.bash_history"
 
 # Copy all commands from history file to OUTPUT_FILE

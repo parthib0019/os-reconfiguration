@@ -1,0 +1,506 @@
+[
+    {
+        "command": "sudo apt install curl",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt update",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt install brave-browser",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt update",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt upgrade",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo dpkg --configure -a",
+        "category": "build"
+    },
+    {
+        "command": "sudo apt upgrade brave-browser",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt install git",
+        "category": "package_install"
+    },
+    {
+        "command": "git clone https://github.com/parthib-solver/practice-about-git-hub.git",
+        "category": "git_clone"
+    },
+    {
+        "command": "git clone https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git",
+        "category": "git_clone"
+    },
+    {
+        "command": "sudo apt update",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt install qemu-system-x86 qemu-utils",
+        "category": "package_install"
+    },
+    {
+        "command": "make olddefconfig",
+        "category": "build"
+    },
+    {
+        "command": "make -j$(nproc)",
+        "category": "build"
+    },
+    {
+        "command": "make olddefconfig",
+        "category": "build"
+    },
+    {
+        "command": "make -j$(nproc)",
+        "category": "build"
+    },
+    {
+        "command": "make olddefconfig",
+        "category": "build"
+    },
+    {
+        "command": "make olddefconfig",
+        "category": "build"
+    },
+    {
+        "command": "make -j$(nproc)",
+        "category": "build"
+    },
+    {
+        "command": "make olddefconfig",
+        "category": "build"
+    },
+    {
+        "command": "make olddefconfig",
+        "category": "build"
+    },
+    {
+        "command": "make -j$(nproc)",
+        "category": "build"
+    },
+    {
+        "command": "make olddefconfig",
+        "category": "build"
+    },
+    {
+        "command": "make -j$(nproc)",
+        "category": "build"
+    },
+    {
+        "command": "sudo apt update",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt install build-essential libncurses-dev bison flex libssl-dev libelf-dev",
+        "category": "package_install"
+    },
+    {
+        "command": "make olddefconfig",
+        "category": "build"
+    },
+    {
+        "command": "make -j$(nproc)",
+        "category": "build"
+    },
+    {
+        "command": "make mrproper",
+        "category": "build"
+    },
+    {
+        "command": "make localmodconfig",
+        "category": "build"
+    },
+    {
+        "command": "make -j$(nproc)",
+        "category": "build"
+    },
+    {
+        "command": "sudo apt install libdw-dev elfutils",
+        "category": "package_install"
+    },
+    {
+        "command": "make -j$(nproc)",
+        "category": "build"
+    },
+    {
+        "command": "make menuconfig",
+        "category": "build"
+    },
+    {
+        "command": "make olddefconfig",
+        "category": "build"
+    },
+    {
+        "command": "make -j$(nproc)",
+        "category": "build"
+    },
+    {
+        "command": "make olddefconfig",
+        "category": "build"
+    },
+    {
+        "command": "make -j$(nproc)",
+        "category": "build"
+    },
+    {
+        "command": "sudo apt update",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt install virtualbox-dkms linux-headers-$(uname -r) build-essential",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt update",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt install build-essential libncurses-dev bison flex libssl-dev libelf-dev git bc",
+        "category": "package_install"
+    },
+    {
+        "command": "make olddefconfig",
+        "category": "build"
+    },
+    {
+        "command": "make -j$(nproc)",
+        "category": "build"
+    },
+    {
+        "command": "make clean",
+        "category": "build"
+    },
+    {
+        "command": "sudo apt install virt-manager qemu-kvm libvirt-daemon-system",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo systemctl restart vboxdrv.service  # only on some distros",
+        "category": "systemctl"
+    },
+    {
+        "command": "sudo apt update",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt install --reinstall virtualbox virtualbox-dkms",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt update",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt remove --purge virtualbox* virtualbox-dkms",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt install libxcb-cursor0",
+        "category": "package_install"
+    },
+    {
+        "command": "git clone https://github.com/parthib-solver/kernelDevelopment.git",
+        "category": "git_clone"
+    },
+    {
+        "command": "make maneconfig",
+        "category": "build"
+    },
+    {
+        "command": "make maneconfig",
+        "category": "build"
+    },
+    {
+        "command": "sudo apt install build-essential libncurses-dev bison flex libssl-dev libelf-dev git bc",
+        "category": "package_install"
+    },
+    {
+        "command": "make menuconfig",
+        "category": "build"
+    },
+    {
+        "command": "sudo apt install build-essential libncurses-dev bison flex libssl-dev libelf-dev",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt install libdw-dev libdwarf-dev",
+        "category": "package_install"
+    },
+    {
+        "command": "make -j12 && sudo make modules_install -j12",
+        "category": "build"
+    },
+    {
+        "command": "make clean",
+        "category": "build"
+    },
+    {
+        "command": "sudo apt update",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt install build-essential libncurses-dev bison flex libssl-dev libelf-dev",
+        "category": "package_install"
+    },
+    {
+        "command": "make clean",
+        "category": "build"
+    },
+    {
+        "command": "make mrproper",
+        "category": "build"
+    },
+    {
+        "command": "make -j12 && sudo make modules_install -j12",
+        "category": "build"
+    },
+    {
+        "command": "make menuconfig",
+        "category": "build"
+    },
+    {
+        "command": "make -j12 && sudo make modules_install -j12",
+        "category": "build"
+    },
+    {
+        "command": "make clean",
+        "category": "build"
+    },
+    {
+        "command": "make olddefconfig",
+        "category": "build"
+    },
+    {
+        "command": "make -j$(nproc)",
+        "category": "build"
+    },
+    {
+        "command": "make clean",
+        "category": "build"
+    },
+    {
+        "command": "make -j12 && sudo make modules_install -j12",
+        "category": "build"
+    },
+    {
+        "command": "make clean",
+        "category": "build"
+    },
+    {
+        "command": "make -j12 && sudo make modules_install -j12",
+        "category": "build"
+    },
+    {
+        "command": "make modules",
+        "category": "build"
+    },
+    {
+        "command": "make modules_install INSTALL_MOD_PATH=../kernel_package",
+        "category": "build"
+    },
+    {
+        "command": "sudo apt install git-filter-repo",
+        "category": "package_install"
+    },
+    {
+        "command": "ls makefile",
+        "category": "build"
+    },
+    {
+        "command": "pip install numpy",
+        "category": "python_package"
+    },
+    {
+        "command": "sudo /usr/share/blender/3.0/python/bin/python3.10 -m pip install numpy",
+        "category": "python_package"
+    },
+    {
+        "command": "git clone https://github.com/parthib0019/kernelDevelopment.git",
+        "category": "git_clone"
+    },
+    {
+        "command": "make olddefconfig",
+        "category": "build"
+    },
+    {
+        "command": "make olddefconfig",
+        "category": "build"
+    },
+    {
+        "command": "make -j$(nproc) M=samples/hello_world modules",
+        "category": "build"
+    },
+    {
+        "command": "make menuconfig",
+        "category": "build"
+    },
+    {
+        "command": "make -j$(nproc) M=samples/hello_world modules",
+        "category": "build"
+    },
+    {
+        "command": "make menuconfig",
+        "category": "build"
+    },
+    {
+        "command": "make -j$(nproc)",
+        "category": "build"
+    },
+    {
+        "command": "sudo make modules_install",
+        "category": "build"
+    },
+    {
+        "command": "sudo make install",
+        "category": "build"
+    },
+    {
+        "command": "make -j$(nproc) M=samples/hello_world modules",
+        "category": "build"
+    },
+    {
+        "command": "make menuconfig",
+        "category": "build"
+    },
+    {
+        "command": "make menuconfig",
+        "category": "build"
+    },
+    {
+        "command": "sudo make -j$(nproc)",
+        "category": "build"
+    },
+    {
+        "command": "sudo make modules_install",
+        "category": "build"
+    },
+    {
+        "command": "sudo make install",
+        "category": "build"
+    },
+    {
+        "command": "sudo apt install rpm",
+        "category": "package_install"
+    },
+    {
+        "command": "git clone https://github.com/parthib0019/RKMVM-SEAT-ALLOWTEMENT.git",
+        "category": "git_clone"
+    },
+    {
+        "command": "pip install flask",
+        "category": "python_package"
+    },
+    {
+        "command": "git clone https://github.com/parthib0019/RKMVM-SEAT-ALLOWTEMENT.git",
+        "category": "git_clone"
+    },
+    {
+        "command": "pip install mysql",
+        "category": "python_package"
+    },
+    {
+        "command": "pip install --upgrade pip setuptools wheel",
+        "category": "python_package"
+    },
+    {
+        "command": "pip install mysql",
+        "category": "python_package"
+    },
+    {
+        "command": "sudo apt update",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt install python3-dev default-libmysqlclient-dev build-essential pkg-config",
+        "category": "package_install"
+    },
+    {
+        "command": "pip install mysqlclient",
+        "category": "python_package"
+    },
+    {
+        "command": "pip install pymysql",
+        "category": "python_package"
+    },
+    {
+        "command": "make olddefconfig",
+        "category": "build"
+    },
+    {
+        "command": "make menuconfig",
+        "category": "build"
+    },
+    {
+        "command": "make menuconfig",
+        "category": "build"
+    },
+    {
+        "command": "sudo apt update",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt install build-essential libncurses-dev bison flex libssl-dev libelf-dev dwarves",
+        "category": "package_install"
+    },
+    {
+        "command": "make olddefconfig",
+        "category": "build"
+    },
+    {
+        "command": "sudo apt update",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt install build-essential libncurses-dev bison flex libssl-dev libelf-dev dwarves",
+        "category": "package_install"
+    },
+    {
+        "command": "make olddefconfig",
+        "category": "build"
+    },
+    {
+        "command": "make -j$(nproc)",
+        "category": "build"
+    },
+    {
+        "command": "make modules_install",
+        "category": "build"
+    },
+    {
+        "command": "sudo make modules_install",
+        "category": "build"
+    },
+    {
+        "command": "sudo make install",
+        "category": "build"
+    },
+    {
+        "command": "make -j$(nproc) bindeb-pkg",
+        "category": "build"
+    },
+    {
+        "command": "sudo apt update",
+        "category": "package_install"
+    },
+    {
+        "command": "sudo apt install devscripts build-essential fakeroot debhelper",
+        "category": "package_install"
+    },
+    {
+        "command": "make -j$(nproc) bindeb-pkg",
+        "category": "build"
+    },
+    {
+        "command": "git clone https://github.com/parthib0019/os-reconfiguration.git",
+        "category": "git_clone"
+    }
+]
