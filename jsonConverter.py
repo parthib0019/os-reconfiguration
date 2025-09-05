@@ -20,7 +20,7 @@ structured_commands = []
 with open(history_file, "r") as f:
     for line in f:
         command = line.strip()
-        if not command or command in ["ls", "cd", "pwd", "clear", "exit"]:
+        if not command or command in ["ls", "cd", "pwd", "clear", "exit", "history","git clone"]:
             continue  # skip noise
         
         matched_category = None

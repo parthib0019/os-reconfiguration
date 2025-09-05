@@ -502,5 +502,53 @@
     {
         "command": "git clone https://github.com/parthib0019/os-reconfiguration.git",
         "category": "git_clone"
+    },
+    {
+        "command": "pip install werkzeug",
+        "category": "python_package"
+    },
+    {
+        "command": "pip install flask sqlalchemy web3",
+        "category": "python_package"
+    },
+    {
+        "command": "pip install flask_mail",
+        "category": "python_package"
+    },
+    {
+        "command": "pip install flask_sqlalchemy",
+        "category": "python_package"
+    },
+    {
+        "command": "pip install MySQLdb",
+        "category": "python_package"
+    },
+    {
+        "command": "pip install pymysql",
+        "category": "python_package"
+    },
+    {
+        "command": "pip install MySQLdb",
+        "category": "python_package"
+    },
+    {
+        "command": "pip install mysqldb",
+        "category": "python_package"
+    },
+    {
+        "command": "pip install mysqlclient",
+        "category": "python_package"
+    },
+    {
+        "command": "pip install -r requirements.txt",
+        "category": "python_package"
+    },
+    {
+        "command": "sudo apt remove --purge virtualbox*",
+        "category": "package_install"
+    },
+    {
+        "command": "pip install groq",
+        "category": "python_package"
     }
 ]
